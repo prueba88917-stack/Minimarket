@@ -44,13 +44,13 @@ Para responder a estos desafíos, se diseñó e implementó un sistema web diná
 
 ### Parte A: Identificar Componentes y Módulos
 
-#### 1. Módulo Login (Autenticación y Control de Acceso)
-- **Descripción:** Punto de entrada seguro que valida credenciales y asigna permisos según el rol asignado (Administrador o Empleado).
+#### 1. Módulo Login y Registro de Usuarios
+- **Descripción:** Punto de entrada seguro que valida credenciales y asigna permisos. Incluye formulario de registro de nuevas cuentas con rol de empleado/cajero y login automático.
 - **Componentes:**
   - Banner y logotipo institucional del minimarket.
   - Formulario de autenticación (correo electrónico y contraseña encriptada).
-  - Mensajes de alerta dinámica ante credenciales erróneas.
-  - Indicador de credenciales de prueba para la evaluación.
+  - Formulario de registro público ([registro.php](file:///c:/xampp/htdocs/Scarlett/pages/registro.php)) con validación de contraseña de mínimo 6 caracteres y hashing BCrypt.
+  - Mensajes de alerta dinámica ante credenciales erróneas o duplicadas.
 
 #### 2. Módulo Inicio (Home / Dashboard)
 - **Descripción:** Panel central de bienvenida y monitoreo ejecutivo en tiempo real.
@@ -156,13 +156,13 @@ Scarlett/
 │   └── audio/                     # Efectos sonoros del sistema
 └── pages/
     ├── login.php                  # Formulario de inicio de sesión con roles
+    ├── registro.php               # Formulario de registro público de usuarios y cajeros
     ├── logout.php                 # Destrucción segura de sesiones
     ├── caja.php                   # MÓDULO DE CAJA: Apertura, egresos, ingresos y arqueo
     ├── ventas.php                 # MÓDULO DE VENTAS: POS, carrito, stock y vuelto
     ├── productos.php              # MÓDULO INVENTARIO: CRUD y alertas de stock
     ├── usuarios.php               # MÓDULO USUARIOS: Gestión de cuentas y roles
-    ├── reportes.php               # MÓDULO REPORTES: Balance financiero y gráficos
-    └── documentacion.php          # Vista web del caso práctico
+    └── reportes.php               # MÓDULO REPORTES: Balance financiero y gráficos
 ```
 
 ---

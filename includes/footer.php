@@ -25,10 +25,10 @@
         </div>
 
         <div>
-          <h5 style="color:white; margin-bottom:0.5rem; font-size:0.95rem;">Información del Caso Práctico</h5>
-          <p style="font-size:0.85rem; color:#cbd5e1;"><strong>Desarrollado para:</strong> Evaluación Caso Práctico</p>
-          <p style="font-size:0.85rem; color:#cbd5e1;"><strong>Año:</strong> 2026</p>
-          <p style="font-size:0.85rem; color:#cbd5e1;"><strong>Base de datos:</strong> MySQL / MariaDB / Railway</p>
+          <h5 style="color:white; margin-bottom:0.5rem; font-size:0.95rem;">Información del Negocio</h5>
+          <p style="font-size:0.85rem; color:#cbd5e1;"><strong>Atención:</strong> Lunes a Domingo</p>
+          <p style="font-size:0.85rem; color:#cbd5e1;"><strong>Horario:</strong> 08:30 - 22:00 hrs</p>
+          <p style="font-size:0.85rem; color:#cbd5e1;"><strong>Ubicación:</strong> Santiago, Chile</p>
         </div>
       </div>
 

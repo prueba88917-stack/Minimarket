@@ -176,19 +176,4 @@ require_once __DIR__ . '/includes/header.php';
 
 </div>
 
-<!-- Información para la presentación académica / evaluación -->
-<div class="card" style="margin-top: 2rem; background: #f0fdf4; border-color: #bbf7d0;">
-  <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
-    <div>
-      <h4 style="color: #166534; margin-bottom: 0.25rem;">📄 Cumplimiento de Caso Práctico - Plantilla y Portafolio</h4>
-      <p style="color: #15803d; font-size: 0.88rem;">
-        Mini Abarrotes Don Luis incluye Login con 2 roles (Administrador y Empleado), Módulo de Caja con control de efectivo, Módulo de Ventas Diarias, CRUD de Inventario, Gestión de Usuarios y Reportes.
-      </p>
-    </div>
-    <a href="<?php echo BASE_URL; ?>pages/documentacion.php" class="btn btn-primary btn-sm">
-      📖 Ver Portafolio y Documentación
-    </a>
-  </div>
-</div>
-
 <?php require_once __DIR__ . '/includes/footer.php'; ?>

@@ -85,8 +85,13 @@ $pagina_actual = basename($_SERVER['PHP_SELF']);
 
           <?php else: ?>
             <li class="nav-item">
-              <a href="<?php echo BASE_URL; ?>pages/login.php" class="btn btn-primary btn-sm" style="color:white;">
+              <a href="<?php echo BASE_URL; ?>pages/login.php" class="<?php echo ($pagina_actual == 'login.php') ? 'active' : ''; ?>">
                 🔐 Iniciar Sesión
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo BASE_URL; ?>pages/registro.php" class="btn btn-primary btn-sm" style="color:white;">
+                📝 Registrarse
               </a>
             </li>
           <?php endif; ?>

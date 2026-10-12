@@ -69,7 +69,11 @@ require_once __DIR__ . '/../includes/header.php';
       </button>
     </form>
 
-    <div style="margin-top: 2rem; padding-top: 1.25rem; border-top: 1px dashed var(--border); font-size: 0.85rem; color: var(--text-muted);">
+    <div style="margin-top: 1.25rem; text-align: center; font-size: 0.9rem; color: var(--text-muted);">
+      ¿No tienes cuenta? <a href="<?php echo BASE_URL; ?>pages/registro.php" style="font-weight: 700;">Regístrate aquí</a>
+    </div>
+
+    <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px dashed var(--border); font-size: 0.85rem; color: var(--text-muted);">
       <p><strong>Credenciales de Demostración:</strong></p>
       <div style="display: flex; justify-content: space-between; margin-top: 0.5rem; background: #f8fafc; padding: 0.6rem; border-radius: 6px;">
         <div>
